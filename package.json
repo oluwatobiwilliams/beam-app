@@ -1,0 +1,45 @@
+{
+  "name": "beam-app",
+  "version": "0.1.0",
+  "description": "Beam any localhost app to your phone — LAN proxy, QR code, mobile viewport injection, on-device console.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Oluwatobi Williams Babatunde <oluwatobiwilliams@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oluwatobiwilliams/beam-app.git"
+  },
+  "homepage": "https://github.com/oluwatobiwilliams/beam-app#readme",
+  "bugs": {
+    "url": "https://github.com/oluwatobiwilliams/beam-app/issues"
+  },
+  "keywords": [
+    "mobile",
+    "preview",
+    "localhost",
+    "qr-code",
+    "proxy",
+    "dev-server",
+    "prototyping",
+    "responsive",
+    "phone"
+  ],
+  "bin": {
+    "beam": "src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
